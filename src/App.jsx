@@ -2,8 +2,8 @@
 
 export const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-orange-800">
-    Hello world!
-  </h1>
+    <header className="bg-primary w-screen h-12 md:bg-secondary">
+
+    </header>
   )
 }
