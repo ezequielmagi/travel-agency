@@ -1,9 +1,14 @@
+//import Header from "./components/Header"
+import Home from "./components/Home"
+import Recomendations from "./components/Recomendations"
 
 
 export const App = () => {
   return (
-    <header className="bg-primary w-screen h-12 md:bg-secondary">
+    <>
+      <Home />
+      <Recomendations />
 
-    </header>
+    </>
   )
 }
