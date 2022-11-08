@@ -1,6 +1,6 @@
 export default function Home () {
   return(
-    <section className="w-full h-screen">
+    <section id="home" className="w-full h-screen">
       <div id="home">
           <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
             <input className="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus-within:outline-none focus:ring-2 focus:w-11/12" placeholder="San Francisco" type="search" name="" id="" />

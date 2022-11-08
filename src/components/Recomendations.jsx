@@ -19,7 +19,7 @@ export default function Recomendations (){
     const subTitleStyle1 = "text-terciary text-md px-4"
 
   return(
-    <section className="p-6">
+    <section id="featured" className="p-6">
     <p className="text-3xl font-semibold text-primary">Recomendados</p>
     <div className="flex h-72 w-auto items-center mt-6 overflow-x-auto overscroll-x-contain space-x-4 overflow-y-hidden">
       {
