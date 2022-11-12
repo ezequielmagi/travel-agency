@@ -5,11 +5,12 @@ import TrendingStays from "./components/TrendingStays"
 import Faqs from "./components/Faqs"
 import Footer from "./components/Footer"
 import TabBar from "./components/TabBar"
-
+//import Header from './components/Header'
 
 export const App = () => {
   return (
     <>
+      
       <Home />
       <Recomendations />
       <TrendingStays />
